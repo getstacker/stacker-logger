@@ -1,0 +1,25 @@
+{
+  "name": "stacker-logger",
+  "version": "0.1.0",
+  "description": "Logger for Stacker DevOps CLI.",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.11.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stacker/stacker-logger.git"
+  },
+  "keywords": [
+    "stacker"
+  ],
+  "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/getstacker/stacker-logger/issues"
+  },
+  "homepage": "https://github.com/getstacker/stacker-logger",
+  "dependencies": {
+    "winston": "^0.8.3"
+  }
+}
