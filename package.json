@@ -1,7 +1,7 @@
 {
   "name": "stacker-logger",
-  "version": "0.1.0",
-  "description": "Logger for Stacker DevOps CLI.",
+  "version": "0.1.1",
+  "description": "Stacker logger plugin.",
   "main": "index.js",
   "engines": {
     "node": ">= 0.11.14"
@@ -11,7 +11,8 @@
     "url": "git://github.com/stacker/stacker-logger.git"
   },
   "keywords": [
-    "stacker"
+    "stacker",
+    "plugin"
   ],
   "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
   "license": "Apache 2.0",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/getstacker/stacker-logger",
   "dependencies": {
+    "coffee-script": "^1.8",
     "winston": "^0.8.3"
   }
 }
