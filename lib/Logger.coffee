@@ -43,6 +43,16 @@ class Logger
           timestamp: false
       ]
 
+  inspect: (depth) ->
+    setLevel: @setLevel
+    trace: @trace
+    debug: @debug
+    data: @data
+    info: @info
+    warn: @warn
+    error: @error
+    log: @log
+
   # Getters/Setters
   Object.defineProperties @prototype,
     instance:
